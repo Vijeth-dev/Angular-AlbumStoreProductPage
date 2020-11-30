@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Album } from 'app/album';
+import { Album } from '../album';
 import { subscribeOn } from 'rxjs/operator/subscribeOn';
 import {ProductService} from '../product.service';
 @Component({
